@@ -4,7 +4,7 @@ export default class Circle {
     getArea() : number { //PI * r^2
         return Math.PI * (this.radius * this.radius);
     }
-    
+
     getCircumference() : number { //2 * PI * r
         return 2 * Math.PI * this.radius;
     }

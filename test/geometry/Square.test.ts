@@ -1,4 +1,4 @@
-import Square from "../src/Square";
+import Square from "../../src/geometry/Square";
 
 test("Should calculate the area of square", function () {
     const square = new Square(2);

@@ -1,4 +1,4 @@
-import Triangle from "../src/Triangle";
+import Triangle from "../../src/geometry/Triangle";
 
 test("Should calculate the perimeter of square", function () {
     const triangle = new Triangle(3, 4, 5);
